@@ -54,8 +54,8 @@ useEffect(() => {
                 <span>Bem Vinda, {ongName}</span>
 
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
-                <button type="button">
-                    <FiPower onClick={handleLogout} size={18} color="#e02041" />
+                <button type="button" onClick={handleLogout} >
+                    <FiPower size={18} color="#e02041" />
                 </button>
             </header>
 
